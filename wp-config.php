@@ -85,7 +85,8 @@ define( 'WP_DEBUG', true );
 /* Aggiungi qualsiasi valore personalizzato tra questa riga e la riga "Finito, interrompere le modifiche". */
 
 
-
+define('WP_HOME', 'http://depyl.local');
+define('WP_SITEURL', 'http://depyl.local');
 /* Finito, interrompere le modifiche! Buona pubblicazione. */
 
 /** Path assoluto alla directory di WordPress. */
