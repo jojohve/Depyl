@@ -20,13 +20,13 @@
 
 // ** Impostazioni database - È possibile ottenere queste informazioni dal proprio fornitore di hosting ** //
 /** Il nome del database di WordPress */
-define( 'DB_NAME', 'Depyl' );
+define( 'DB_NAME', 'nome_del_database_qui' );
 
 /** Nome utente del database */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'nome_utente_qui' );
 
 /** Password del database */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'password_qui' );
 
 /** Hostname del database */
 define( 'DB_HOST', 'localhost' );
