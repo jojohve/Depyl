@@ -2,14 +2,27 @@ body {
     font-family: Arial, sans-serif;
 }
 
-header, footer {
+header,
+footer {
     background-color: #4676dd;
     padding: 20px;
     color: white;
     text-align: center;
+
     ul {
         display: flex;
         justify-content: space-around;
-        text-decoration: none;
+
+        li {
+            text-decoration: none;
+            list-style-type: none;
+        }
+
+        li:link,
+        li:visited,
+        li:hover,
+        li:active {
+            color: grey;
+        }
     }
 }
