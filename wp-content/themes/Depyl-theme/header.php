@@ -12,7 +12,7 @@
 
 <body <?php body_class(); ?>>
     <header>
-        <img src="logo.png" alt="logo">
+        <img src="assets/images/logo.png" alt="logo">
         <h1><?php bloginfo('name'); ?></h1>
         <p><?php bloginfo('description'); ?></p>
         <?php wp_nav_menu(array('theme_location' => 'primary')); ?>

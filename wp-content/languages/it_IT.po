@@ -142,7 +142,7 @@ msgid "&#8221;"
 msgstr "&#8221;"
 
 #. translators: Opening curly double quote.
-#: wp-includes/formatting.php:84 wp-includes/formatting.php:5706
+#: wp-includes/formatting.php:84 wp-includes/formatting.php:5707
 #, gp-priority: high
 msgctxt "opening curly double quote"
 msgid "&#8220;"
@@ -1075,7 +1075,7 @@ msgid "Call %s to create an HTML Processor instead of calling the constructor di
 msgstr "Fai una chiamata a %s per creare un HTML Processor anziché chiamare il costruttore direttamente."
 
 #. translators: %s: The "type" key.
-#: wp-includes/functions.php:8866
+#: wp-includes/functions.php:8869
 msgid "The %s key must be a string without spaces."
 msgstr "La chiave %s deve essere una stringa senza spazi."
 
@@ -1400,7 +1400,7 @@ msgid "The Edit Media screen is deprecated as of WordPress 6.3. Please use the M
 msgstr "La schermata Modifica media è deprecata a partire da WordPress 6.3. Al suo posto, utilizza la Libreria dei media."
 
 #. translators: %s: The type of the given object ID.
-#: wp-includes/functions.php:7249
+#: wp-includes/functions.php:7252
 msgid "Object ID must be an integer, %s given."
 msgstr "L'ID dell'oggetto deve essere un numero intero, è stato passato un valore %s."
 
@@ -1707,7 +1707,7 @@ msgstr "Verifica che l'estensione PHP %s sia installata e abilitata."
 msgid "When using the %1$s constant, make sure to set these globals to an array: %2$s."
 msgstr "Quando usi la costante %1$s, assicurati di impostare queste variabili globali su un array: %2$s."
 
-#: wp-includes/html-api/class-wp-html-tag-processor.php:3272
+#: wp-includes/html-api/class-wp-html-tag-processor.php:3279
 msgid "The query argument must be an array or a tag name."
 msgstr "L'argomento della query deve essere un array o il nome di un tag."
 
@@ -1729,7 +1729,7 @@ msgstr "Troppi segnalibri: impossibile crearne altri."
 
 #. translators: 1: The function name, 2: The argument number, 3: The argument
 #. name, 4: The expected type, 5: The provided type.
-#: wp-includes/formatting.php:5539
+#: wp-includes/formatting.php:5540
 msgid "Warning: %1$s expects parameter %2$s (%3$s) to be a %4$s, %5$s given."
 msgstr "Attenzione: %1$s si aspetta che il parametro %2$s (%3$s) sia %4$s, è stato passato %5$s."
 
@@ -3341,7 +3341,7 @@ msgstr "Non allegato"
 
 #. translators: 1: Function name, 2: A variable type, like "boolean" or
 #. "integer".
-#: wp-includes/functions.php:8708
+#: wp-includes/functions.php:8711
 msgid "%1$s only accepts a non-empty path string, received %2$s."
 msgstr "%1$s accetta solo una stringa di percorso non vuota, ha ricevuto %2$s."
 
@@ -3363,7 +3363,7 @@ msgid "Sorry, you are not allowed to upload this file type."
 msgstr "Non hai i permessi per caricare questo tipo di file."
 
 #. translators: 1: Option name, 2: Error code.
-#: wp-includes/formatting.php:5107
+#: wp-includes/formatting.php:5108
 msgid "Could not sanitize the %1$s option. Error code: %2$s"
 msgstr "Impossibile sanificare l'opzione %1$s. Codice di errore: %2$s"
 
@@ -4788,7 +4788,7 @@ msgstr "(link a Home, si apre in una nuova scheda)"
 
 #. translators: 1: Block type, 2: Typography supports key, e.g: fontSize,
 #. lineHeight, etc. 3: block.json, 4: Old metadata key, 5: New metadata key.
-#: wp-includes/blocks.php:1882
+#: wp-includes/blocks.php:1910
 msgid "Block \"%1$s\" is declaring %2$s support in %3$s file under %4$s. %2$s support is now declared under %5$s."
 msgstr "Il blocco \"%1$s\" dichiara il supporto a %2$s nel file %3$s sotto %4$s. Il supporto a %2$s ora è dichiarato sotto %5$s."
 
@@ -5102,7 +5102,7 @@ msgid "Filter by category"
 msgstr "Filtra per categoria"
 
 #. translators: Documentation explaining HTTPS and why it should be used.
-#: wp-includes/functions.php:8508
+#: wp-includes/functions.php:8511
 msgid "https://wordpress.org/documentation/article/why-should-i-use-https/"
 msgstr "https://wordpress.org/documentation/article/why-should-i-use-https/"
 
@@ -6998,7 +6998,7 @@ msgstr "Versione di WordPress %s"
 msgid "https://wordpress.org/documentation/article/debugging-a-wordpress-network/"
 msgstr "https://wordpress.org/documentation/article/debugging-a-wordpress-network/"
 
-#: wp-includes/formatting.php:5079
+#: wp-includes/formatting.php:5080
 msgid "https://wordpress.org/documentation/article/customize-permalinks/#choosing-your-permalink-structure"
 msgstr "https://wordpress.org/documentation/article/customize-permalinks/#choosing-your-permalink-structure"
 
@@ -7434,7 +7434,7 @@ msgstr "[%s] È stata richiesta la modifica dell'email dell'amministratore del n
 
 #. translators: Site admin email change notification email subject. %s: Site
 #. title.
-#: wp-includes/functions.php:8013
+#: wp-includes/functions.php:8016
 msgid "[%s] Admin Email Changed"
 msgstr "[%s] L'email dell'amministratore è stata modificata"
 
@@ -7640,7 +7640,7 @@ msgstr "Manca l'ID richiesta."
 msgid "Usage of the title attribute on the login logo is not recommended for accessibility reasons. Use the link text instead."
 msgstr "L'uso dell'attributo titolo sul logo di login non è raccomandato per motivi di accessibilità. Usa invece il testo del link."
 
-#: wp-includes/functions.php:8449
+#: wp-includes/functions.php:8452
 msgid "Update PHP"
 msgstr "Aggiorna PHP"
 
@@ -7654,7 +7654,7 @@ msgid "REST API routes must be registered on the %s action."
 msgstr "Le rotte REST API devono essere registrate tramite la action %s."
 
 #. translators: Used to join last two items in a list with more than 2 times.
-#: wp-includes/formatting.php:5352
+#: wp-includes/formatting.php:5353
 msgid "%1$s, and %2$s"
 msgstr "%1$s, e %2$s"
 
@@ -7744,16 +7744,16 @@ msgid "Formats"
 msgstr "Formati"
 
 #. translators: Used to join items in a list with more than 2 items.
-#: wp-includes/formatting.php:5350
+#: wp-includes/formatting.php:5351
 msgid "%1$s, %2$s"
 msgstr "%1$s, %2$s"
 
 #. translators: %s: Default Update PHP page URL.
-#: wp-includes/functions.php:8392
+#: wp-includes/functions.php:8395
 msgid "This resource is provided by your web host, and is specific to your site. For more information, <a href=\"%s\" target=\"_blank\">see the official WordPress documentation</a>."
 msgstr "Questa risorsa è fornita dal tuo fornitore di hosting ed è specifica per il tuo sito. Per maggiori informazioni, <a href=\"%s\" target=\"_blank\">vedi la documentazione ufficiale di WordPress</a>."
 
-#: wp-includes/functions.php:8341
+#: wp-includes/functions.php:8344
 msgctxt "localized PHP upgrade information page"
 msgid "https://wordpress.org/support/update-php/"
 msgstr "https://wordpress.org/support/update-php/"
@@ -7948,7 +7948,7 @@ msgstr "Elemento aggiunto."
 #: wp-includes/class-wp-customize-manager.php:5701
 #: wp-includes/class-wp-customize-manager.php:5722
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:58
-#: wp-includes/functions.php:8451 wp-includes/media-template.php:167
+#: wp-includes/functions.php:8454 wp-includes/media-template.php:167
 #: wp-includes/widgets/class-wp-widget-custom-html.php:322 wp-login.php:692
 #: wp-includes/js/dist/components.js:58741
 #: wp-includes/js/dist/customize-widgets.js:1437
@@ -8422,12 +8422,12 @@ msgid "User Requests"
 msgstr "Richieste utente"
 
 #. translators: Deleted long text.
-#: wp-includes/functions.php:8164
+#: wp-includes/functions.php:8167
 msgid "This content was deleted by the author."
 msgstr "Questo contenuto è stato eliminato dall'autore."
 
 #. translators: Deleted text.
-#: wp-includes/functions.php:8160
+#: wp-includes/functions.php:8163
 msgid "[deleted]"
 msgstr "[eliminato]"
 
@@ -9284,7 +9284,7 @@ msgstr "Controllo della chiave copiata fallito. Riprova."
 
 #. translators: Do not translate OLD_EMAIL, NEW_EMAIL, SITENAME, SITEURL: those
 #. are placeholders.
-#: wp-includes/functions.php:7996
+#: wp-includes/functions.php:7999
 msgid ""
 "Hi,\n"
 "\n"
@@ -9310,7 +9310,7 @@ msgstr ""
 "###SITENAME###\n"
 "###SITEURL###"
 
-#: wp-includes/functions.php:7851
+#: wp-includes/functions.php:7854
 msgid "Only UUID V4 is supported at this time."
 msgstr "Al momento è supportato solo UUID V4."
 
@@ -12174,7 +12174,7 @@ msgid "Image crop area preview. Requires mouse interaction."
 msgstr "Anteprima dell'area di ritaglio. Interagisci con il mouse."
 
 #. translators: %s: Documentation URL.
-#: wp-includes/formatting.php:5078
+#: wp-includes/formatting.php:5079
 msgid "A structure tag is required when using custom permalinks. <a href=\"%s\">Learn more</a>"
 msgstr "Quando usi permalink personalizzati devi avere una struttura di tag. <a href=\"%s\">Per saperne di più</a>"
 
@@ -12346,7 +12346,7 @@ msgid "%1$s %2$s %3$s %4$s Feed"
 msgstr "Feed %1$s %2$s %3$s %4$s"
 
 #. translators: Hidden accessibility text.
-#: wp-includes/functions.php:7396 wp-includes/media-template.php:202
+#: wp-includes/functions.php:7399 wp-includes/media-template.php:202
 #: wp-includes/media-template.php:367
 msgid "Close dialog"
 msgstr "Chiudi la finestra di dialogo"
@@ -15600,7 +15600,7 @@ msgstr "Il sito che stavi cercando, %s, non esiste, ma puoi crearlo adesso!"
 msgid "Have you entered your email correctly? You have entered %s, if it&#8217;s incorrect, you will not receive your email."
 msgstr "Hai inserito l&#8217;indirizzo email correttamente? Hai inserito %s, nel caso non fosse corretta, non riceverai alcuna email."
 
-#: wp-includes/functions.php:7418
+#: wp-includes/functions.php:7421
 msgid "The login page will open in a new tab. After logging in you can close it and return to this page."
 msgstr "La pagina di login sarà aperta in una nuova scheda. Dopo esserti loggato potrai chiuderla e ritornare a questa pagina."
 
@@ -15626,7 +15626,7 @@ msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Cerca &hellip;"
 
-#: wp-includes/functions.php:7416 wp-includes/script-loader.php:1298
+#: wp-includes/functions.php:7419 wp-includes/script-loader.php:1298
 msgid "Session expired"
 msgstr "Sessione scaduta"
 
@@ -16753,7 +16753,7 @@ msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Blu"
 
-#: wp-includes/formatting.php:5058 wp-admin/options.php:297
+#: wp-includes/formatting.php:5059 wp-admin/options.php:297
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "Il fuso orario inserito non è valido. Seleziona un fuso orario valido."
 
@@ -17147,7 +17147,7 @@ msgid "You are currently browsing the archives for the %s category."
 msgstr "Stai visualizzando gli archivi per la categoria %s."
 
 #. translators: Used to join items in a list with only 2 items.
-#: wp-includes/formatting.php:5354
+#: wp-includes/formatting.php:5355
 msgid "%1$s and %2$s"
 msgstr "%1$s e %2$s"
 
@@ -17442,15 +17442,15 @@ msgstr "Il sito richiesto non è installato correttamente. Contatta l'amministra
 msgid "The given object ID is not that of a menu item."
 msgstr "L'ID dell'oggetto indicato non è quello di una voce di menu."
 
-#: wp-includes/formatting.php:4999
+#: wp-includes/formatting.php:5000
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "L'indirizzo del sito immesso non sembra essere un URL valido. Inserisci un URL valido."
 
-#: wp-includes/formatting.php:4986
+#: wp-includes/formatting.php:4987
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "L'indirizzo di WordPress inserito non sembra essere un URL valido. Inserisci un URL valido."
 
-#: wp-includes/formatting.php:4867
+#: wp-includes/formatting.php:4868
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "L'indirizzo email inserito non sembra essere un indirizzo email valido. Inserisci un indirizzo email valido."
 
@@ -18019,7 +18019,7 @@ msgstr "<strong>Errore:</strong> WordPress %1$s richiede MySQL %2$s o superiore"
 msgid "Sidebar %d"
 msgstr "Barra laterale %d"
 
-#: wp-includes/functions.php:7417 wp-includes/user.php:306
+#: wp-includes/functions.php:7420 wp-includes/user.php:306
 msgid "Please log in again."
 msgstr "Accedi nuovamente."
 
@@ -18992,15 +18992,15 @@ msgstr "Esci"
 msgid "Log in"
 msgstr "Accedi"
 
-#: wp-includes/functions.php:6682
+#: wp-includes/functions.php:6685
 msgid "Manual Offsets"
 msgstr "Offset manuale"
 
-#: wp-includes/functions.php:6673 wp-includes/functions.php:6678
+#: wp-includes/functions.php:6676 wp-includes/functions.php:6681
 msgid "UTC"
 msgstr "UTC"
 
-#: wp-includes/functions.php:6621
+#: wp-includes/functions.php:6624
 msgid "Select a city"
 msgstr "Seleziona una città"
 
