@@ -3,6 +3,16 @@ body {
     font-size: larger;
 }
 
+@font-face {
+    font-family: cafe;
+    src: url(/wp-content/themes/depyl-theme/assets/font/This\ Cafe.otf);
+}
+
+@font-face {
+    font-family: cake;
+    src: url(/wp-content/themes/depyl-theme/assets/font/Vanilla\ Cake\ Free.otf);
+}
+
 header,
 footer {
     background-color: #4676dd;
@@ -10,18 +20,21 @@ footer {
     color: white;
     text-align: center;
 
-    h1 {
-        font-size: 48px;
-    }
-
     ul {
         display: flex;
         justify-content: space-around;
 
         li {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             text-decoration: none;
             list-style-type: none;
+            text-transform: uppercase;
         }
+    }
+
+    h1 {
+        font-family: cafe;
+        font-size: 52px;
     }
 }
 
@@ -30,6 +43,7 @@ footer {
     margin-left: 200px;
 
     h2 {
+        font-family: cake;
         font-size: 36px;
     }
 }
