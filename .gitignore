@@ -1,8 +1,8 @@
-/wp-content/uploads/
-/wp-content/upgrade/
-/wp-content/backup-db/
-/wp-content/cache/
-/wp-content/advanced-cache.php
-/.htaccess
-/web.config
-/wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/cache/
+wp-content/advanced-cache.php
+.htaccess
+web.config
+wp-config.php
