@@ -19,23 +19,49 @@ footer {
     padding: 20px;
     color: white;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+        width: 10%;
+        border-radius: 5%;
+    }
+
+    .menu-primary-menu-container {
+        margin-right: 100px;
+        width: 500px;
+    }
 
     ul {
         display: flex;
         justify-content: space-around;
 
         li {
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            text-decoration: none;
             list-style-type: none;
-            text-transform: uppercase;
+
+            a {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-transform: uppercase;
+                font-style: bold;
+                font-size: larger;
+                text-decoration: none;
+                color: white;
+            }
+
+            a:hover {
+                color: rgb(32, 32, 190);
+            }
         }
     }
 
     h1 {
         font-family: cafe;
-        font-size: 52px;
+        font-size: 72px;
     }
+}
+
+footer {
+    justify-content: center;
 }
 
 #content {
@@ -44,7 +70,7 @@ footer {
 
     h2 {
         font-family: cake;
-        font-size: 36px;
+        font-size: 46px;
     }
 }
 
@@ -79,4 +105,13 @@ input {
     width: 500px;
     height: 25px;
     border-radius: 1%;
+}
+
+.wp-block-group {
+    margin: 50px;
+    padding: 10px;
+
+    a {
+        font-size: larger;
+    }
 }

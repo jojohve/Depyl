@@ -17,6 +17,18 @@ footer {
   padding: 20px;
   color: white;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+header .logo,
+footer .logo {
+  width: 10%;
+  border-radius: 5%;
+}
+header .menu-primary-menu-container,
+footer .menu-primary-menu-container {
+  margin-right: 100px;
+  width: 500px;
 }
 header ul,
 footer ul {
@@ -25,15 +37,29 @@ footer ul {
 }
 header ul li,
 footer ul li {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-decoration: none;
   list-style-type: none;
+}
+header ul li a,
+footer ul li a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-transform: uppercase;
+  font-style: bold;
+  font-size: larger;
+  text-decoration: none;
+  color: white;
+}
+header ul li a:hover,
+footer ul li a:hover {
+  color: rgb(32, 32, 190);
 }
 header h1,
 footer h1 {
   font-family: cafe;
-  font-size: 52px;
+  font-size: 72px;
+}
+
+footer {
+  justify-content: center;
 }
 
 #content {
@@ -42,7 +68,7 @@ footer h1 {
 }
 #content h2 {
   font-family: cake;
-  font-size: 36px;
+  font-size: 46px;
 }
 
 .wp-block-contact-form-7-contact-form-selector {
@@ -75,4 +101,12 @@ input {
   width: 500px;
   height: 25px;
   border-radius: 1%;
+}
+
+.wp-block-group {
+  margin: 50px;
+  padding: 10px;
+}
+.wp-block-group a {
+  font-size: larger;
 }/*# sourceMappingURL=style.css.map */
