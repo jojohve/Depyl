@@ -3,6 +3,59 @@ body {
     font-size: larger;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: block !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+        .menu-primary-menu-container {
+            width: auto !important;
+            line-height: 2rem !important;
+
+            ul {
+                display: block !important;
+            }
+        }
+
+        .logo {
+            width: 50% !important;
+        }
+    }
+
+    #content {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+
+        img {
+            border-radius: 0cm !important;
+            width: 100% !important;
+        }
+    }
+
+    .wp-block-contact-form-7-contact-form-selector {
+        padding: 10px !important;
+        margin: 10px !important;
+        width: auto !important;
+        overflow: hidden !important;
+
+        p {
+            margin-left: 200px !important;
+        }
+    }
+
+    .wp-block-group {
+        margin: 10px !important;
+    }
+}
+
+
 @font-face {
     font-family: cafe;
     src: url(/wp-content/themes/depyl-theme/assets/font/This\ Cafe.otf);
@@ -71,6 +124,10 @@ footer {
     h2 {
         font-family: cake;
         font-size: 46px;
+    }
+
+    img {
+        border-radius: 5cm;
     }
 }
 
