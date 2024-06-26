@@ -1,82 +1,78 @@
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: larger;
 }
 
 @font-face {
-    font-family: cafe;
-    src: url(/wp-content/themes/depyl-theme/assets/font/This\ Cafe.otf);
+  font-family: cafe;
+  src: url(/wp-content/themes/depyl-theme/assets/font/This\ Cafe.otf);
 }
-
 @font-face {
-    font-family: cake;
-    src: url(/wp-content/themes/depyl-theme/assets/font/Vanilla\ Cake\ Free.otf);
+  font-family: cake;
+  src: url(/wp-content/themes/depyl-theme/assets/font/Vanilla\ Cake\ Free.otf);
 }
-
 header,
 footer {
-    background-color: #4676dd;
-    padding: 20px;
-    color: white;
-    text-align: center;
-
-    ul {
-        display: flex;
-        justify-content: space-around;
-
-        li {
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            text-decoration: none;
-            list-style-type: none;
-            text-transform: uppercase;
-        }
-    }
-
-    h1 {
-        font-family: cafe;
-        font-size: 52px;
-    }
+  background-color: #4676dd;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+header ul,
+footer ul {
+  display: flex;
+  justify-content: space-around;
+}
+header ul li,
+footer ul li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+header h1,
+footer h1 {
+  font-family: cafe;
+  font-size: 52px;
 }
 
 #content {
-    margin-right: 200px;
-    margin-left: 200px;
-
-    h2 {
-        font-family: cake;
-        font-size: 36px;
-    }
+  margin-right: 200px;
+  margin-left: 200px;
+}
+#content h2 {
+  font-family: cake;
+  font-size: 36px;
 }
 
 .wp-block-contact-form-7-contact-form-selector {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .wpcf7-submit {
-        background-color: #4676dd;
-        color: white;
-        font-size: larger;
-        width: 300px;
-        height: 100px;
-    }
-
-    textarea {
-        height: 100px;
-        width: 500px;
-    }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wp-block-contact-form-7-contact-form-selector .wpcf7-submit {
+  background-color: #4676dd;
+  color: white;
+  font-size: larger;
+  width: 300px;
+  height: 100px;
+}
+.wp-block-contact-form-7-contact-form-selector textarea {
+  height: 100px;
+  width: 500px;
 }
 
 p {
-    font-size: 22px;
-    line-height: 2.5rem;
-    letter-spacing: 0.1rem;
+  font-size: 22px;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
 }
 
 input {
-    width: max-content;
-    border-color: rgb(178, 214, 214);
-    width: 500px;
-    height: 25px;
-    border-radius: 1%;
-}
+  width: -moz-max-content;
+  width: max-content;
+  border-color: rgb(178, 214, 214);
+  width: 500px;
+  height: 25px;
+  border-radius: 1%;
+}/*# sourceMappingURL=style.css.map */
