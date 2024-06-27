@@ -1,0 +1,157 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: larger;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    display: block !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  header .menu-primary-menu-container {
+    width: auto !important;
+    line-height: 2rem !important;
+  }
+  header .menu-primary-menu-container ul {
+    display: block !important;
+  }
+  header .logo {
+    width: 50% !important;
+  }
+  #content {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  #content img {
+    border-radius: 0cm !important;
+    width: 100% !important;
+  }
+  .wp-block-contact-form-7-contact-form-selector {
+    padding: 10px !important;
+    margin: 10px !important;
+    width: auto !important;
+    overflow: hidden !important;
+  }
+  .wp-block-contact-form-7-contact-form-selector p {
+    margin-left: 200px !important;
+  }
+  .wp-block-group {
+    margin: 10px !important;
+  }
+}
+@font-face {
+  font-family: cafe;
+  src: url(/wp-content/themes/depyl-theme/assets/font/This\ Cafe.otf);
+}
+@font-face {
+  font-family: cake;
+  src: url(/wp-content/themes/depyl-theme/assets/font/Vanilla\ Cake\ Free.otf);
+}
+header,
+footer {
+  background-color: #4676dd;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+header .logo,
+footer .logo {
+  width: 10%;
+  border-radius: 5%;
+}
+header .menu-primary-menu-container,
+footer .menu-primary-menu-container {
+  margin-right: 100px;
+  width: 500px;
+}
+header ul,
+footer ul {
+  display: flex;
+  justify-content: space-around;
+}
+header ul li,
+footer ul li {
+  list-style-type: none;
+}
+header ul li a,
+footer ul li a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  font-style: bold;
+  font-size: larger;
+  text-decoration: none;
+  color: white;
+}
+header ul li a:hover,
+footer ul li a:hover {
+  color: rgb(32, 32, 190);
+}
+header h1,
+footer h1 {
+  font-family: cafe;
+  font-size: 72px;
+}
+
+footer {
+  justify-content: center;
+}
+
+#content {
+  margin-right: 200px;
+  margin-left: 200px;
+}
+#content h2 {
+  font-family: cake;
+  font-size: 46px;
+}
+#content img {
+  border-radius: 5cm;
+}
+
+.wp-block-contact-form-7-contact-form-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wp-block-contact-form-7-contact-form-selector .wpcf7-submit {
+  background-color: #4676dd;
+  color: white;
+  font-size: larger;
+  width: 300px;
+  height: 100px;
+}
+.wp-block-contact-form-7-contact-form-selector textarea {
+  height: 100px;
+  width: 500px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+input {
+  width: -moz-max-content;
+  width: max-content;
+  border-color: rgb(178, 214, 214);
+  width: 500px;
+  height: 25px;
+  border-radius: 1%;
+}
+
+.wp-block-group {
+  margin: 50px;
+  padding: 10px;
+}
+.wp-block-group a {
+  font-size: larger;
+}/*# sourceMappingURL=style.css.map */
